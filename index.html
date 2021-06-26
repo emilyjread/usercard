@@ -35,7 +35,7 @@
                         </p>
                         <div class="edit-profile">
                             <img class="icon" src="css/img/gear.png" alt="edit profile icon">
-                            <a href="#" onclick=changeName()>edit profile</a>
+                            <a href="#" onclick="changeName()">edit profile</a>
                         </div>
                     </div>
                 </div>
@@ -58,22 +58,26 @@
             </div>
             <div class="col right">
                 <div class="connection-requests box">
-                    <div class="header"><span> 2 </span>Connection Requests</div>
+                    <div class="header"><span id="connection-requests"> 2 </span>Connection Requests</div>
                     <div class="user">
                         <img class= "profile-icon" src="css/img/profiles/phil-s.jpg" alt="user profile pic">
                         <p class="user-name">Phil S.</p>
-                        <img class="icon" src="css/img/accept-circle.png" alt="accept icon">
-                        <img class="icon" src="css/img/close-circle.png" alt="deny icon">
+                        <div class="iconbox">
+                            <img class="accept icon" src="css/img/accept-circle.png" alt="accept icon" onclick="hide(this)">
+                            <img class="icon" src="css/img/close-circle.png" alt="deny icon" onclick="hide(this)">
+                        </div>
                     </div>
                     <div class="user">
-                        <img class= "profile-icon" src="css/img/profiles/phil-s.jpg" alt="user profile pic">
-                        <p class="user-name">Phil S.</p>
-                        <img class="icon" src="css/img/accept-circle.png" alt="accept icon">
-                        <img class="icon" src="css/img/close-circle.png" alt="deny icon">
+                        <img class= "profile-icon" src="css/img/profiles/todd-s.jpg" alt="user profile pic">
+                        <p class="user-name">Todd S.</p>
+                        <div class="iconbox">
+                            <img class="accept icon" src="css/img/accept-circle.png" alt="accept icon" onclick="hide(this)">
+                            <img class="icon" src="css/img/close-circle.png" alt="deny icon" onclick="hide(this)">
+                        </div>
                     </div>
                 </div>
                 <div class="user-connections box">
-                    <div class="header"><span>500+</span>Your Connections</div>
+                    <div class="header"><span id=connections-number>415</span>Your Connections</div>
                     <div class="user">
                         <img class= "profile-icon" src="css/img/profiles/adrien-s.jpg" alt="user profile pic">
                         <p class="user-name">Adrien S.</p>

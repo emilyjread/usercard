@@ -80,12 +80,13 @@ span{
     border-radius: 50%;
 }
 #profile-pic{
-    border: 10px solid silver;
-    outline: black;
+    border: 2px solid silver;
     border-radius: 50%;
     height: 70px;
     margin: 25px;
     background-color: black;
+    padding: 10px;
+    background-image: radial-gradient(black 60%,white 30%);
 }
 .profile-name{
     font-size:24px;
