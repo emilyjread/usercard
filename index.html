@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>User Profile</title>
 </head>
-<body>
+<body>         
     <div class="container">
         <div class="navbar">
             <h1>Profile</h1>
@@ -25,7 +25,7 @@
                         <img id="profile-pic" src="css/img/profile.jpg" alt="profile picture">
                     </div>
                     <div class="content">
-                        <p class="name">Emily Read</p>
+                        <p class="profile-name">Emily Read</p>
                         <div class="location">
                             <img class="icon" src="css/img/map-marker.png" alt="map marker icon">
                             <p>San Jose, CA</p>
@@ -35,19 +35,19 @@
                         </p>
                         <div class="edit-profile">
                             <img class="icon" src="css/img/gear.png" alt="edit profile icon">
-                        <a href="#">edit profile</a>
+                            <a href="#" onclick=changeName()>edit profile</a>
                         </div>
                     </div>
                 </div>
                 <div class="box">
                     <div class="education header">Education</div>
                     <div class="education-item content">
-                            <p class="education-title">Coding Dojo- Full Stack Bootcamp</p>
-                            <p class="education-date">June 2021- September 2021</p>
-                            <p class="education-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            </p>
-                        </div>
+                        <p class="education-title">Coding Dojo- Full Stack Bootcamp</p>
+                        <p class="education-date">June 2021- September 2021</p>
+                        <p class="education-desc">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
                     <div class="education-item content">
                         <p class="education-title">University of California, Davis</p>
                         <p class="education-date">September 2006- March 2010</p>
@@ -95,5 +95,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
